@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equação</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Equação</legend>
+
+            <section>
+                <div>
+                    <input name="grand1" id="grand1" type="number">
+                    <input name="grand2" id="grand2" type="number">
+                </div>
+    
+                <div>
+                    <input name="grand3" id="grand3" type="number">
+                    <input name="valor" id="valor" type="text" value="x" readonly>
+                </div>
+            </section>
+            
+            <button type="submit">Calcular</button>
+        </fieldset>
+    </form>
+    
+    <select name="tipo" id="tipoEquacao">
+        <option>Selecione o Modelo</option>
+        <option value="proporcional">Proporcional</option>
+        <option value="inproporcional">Inversamente Proporcional</option>
+    </select>
+
+    <script src="./script.js"></script>
+</body>
+</html>
